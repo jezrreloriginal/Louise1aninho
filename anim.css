@@ -1,0 +1,66 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8e3a1;
+            overflow: hidden;
+        }
+
+        .emoji {
+            font-size: 10rem;
+            animation: bounce 5s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-50px);
+            }
+        }
+
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #ff6384;
+            animation: fall 5s infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+
+        .map-link {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .map-link a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.5rem;
+            background-color: #ffda77;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .map-link a:hover {
+            background-color: #fbc02d;
+        }
+   

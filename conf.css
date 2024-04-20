@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffccff; /* Fundo rosa claro */
+    overflow-y: scroll; /* Permite rolagem vertical */
+}
+
+.lista {
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
+    text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+    color: #ff69b4; /* Cor rosa */
+    text-align: center;
+    margin: 20px 0; /* Adiciona margem ao redor do título */
+}
+
+.input {
+    display: block; /* Alterado para display block para espaçamento */
+    width: 100%; /* Define a largura como 100% para ocupar a largura do contêiner pai */
+    padding: 10px; /* Adiciona preenchimento */
+    margin: 10px auto; /* Adiciona margem centralizada */
+    font-size: 16px;
+    border: 2px solid #ff69b4; /* Adiciona uma borda */
+    border-radius: 5px; /* Borda arredondada */
+    box-sizing: border-box; /* Define a caixa de modelo como box-sizing para incluir a borda na largura total */
+}
+
+.chb {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.chb input[type="checkbox"] {
+    display: none; /* Esconde o input original */
+}
+
+.chb label {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Estilo para as checkboxes com a classe 'Acompanhante' */
+.chb.Acompanhante label::before {
+    content: ''; /* Remove o conteúdo padrão */
+    font-size: 24px; /* Tamanho do emoji */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    color: #fff; /* Cor branca */
+    background-color: #ff69b4; /* Cor rosa */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Adiciona preenchimento */
+    font-size: 16px;
+    text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    transition: background-color 0.3s; /* Adiciona transição suave */
+}
+
+button[type="submit"]:hover {
+    background-color: #e64a8b; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Regras de mídia para ajustar o layout em tamanhos de tela menores */
+@media screen and (max-width: 768px) {
+    h4 {
+        font-size: 20px; /* Reduz o tamanho do título em telas menores */
+    }
+
+    .input {
+        font-size: 14px; /* Reduz o tamanho do texto do input em telas menores */
+    }
+
+    fieldset {
+        margin: 20px 10px; /* Adiciona margem inferior e superior menor em telas menores */
+    }
+}

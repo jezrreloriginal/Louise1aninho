@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffccff; /* Fundo rosa claro */
+}
+
+h4 {
+    font-size: 24px;
+    text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+    color: #ff69b4; /* Cor rosa */
+    text-align: center;
+    margin: 20px 0; /* Adiciona margem ao redor do título */
+}
+
+fieldset {
+    margin: 20px 0; /* Adiciona margem ao redor do campo de formulário */
+}
+
+legend {
+    font-size: 20px;
+    text-align: center;
+}
+
+.lista {
+    text-align: center;
+}
+
+.chb {
+    margin-bottom: 20px;
+    font-size: 24px; /* Aumenta o tamanho da checkbox */
+}
+
+.chb input[type="checkbox"] {
+    display: none; /* Esconde o input original */
+}
+
+.chb label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 40px; /* Adiciona espaço para o emoji */
+}
+
+.chb label::before {
+    content: '🎁'; /* Adiciona um emoji de presente */
+    font-size: 24px; /* Tamanho do emoji */
+    position: absolute;
+    left: 0;
+}
+
+.chb input[type="checkbox"]:checked + label::before {
+    content: '🎀'; /* Muda para um laço quando a checkbox é marcada */
+}
+
+.link-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link-container a {
+    display: inline-block; /* Alterado para inline-block para estilização */
+    color: #fff; /* Cor branca */
+    background-color: #ff69b4; /* Cor rosa */
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+    padding: 10px 20px; /* Adiciona preenchimento */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Adiciona transição suave */
+}
+
+.link-container a:hover {
+    background-color: #e64a8b; /* Altera a cor de fundo ao passar o mouse */
+}
+
+button[type="submit"] {
+    display: inline-block; /* Alterado para inline-block para estilização */
+    color: #fff; /* Cor branca */
+    background-color: #ff69b4; /* Cor rosa */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Adiciona preenchimento */
+    font-size: 16px;
+    text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    transition: background-color 0.3s; /* Adiciona transição suave */
+}
+
+button[type="submit"]:hover {
+    background-color: #e64a8b; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* CSS anterior */
+
+/* Estilo para os inputs de texto */
+.input {
+    display: block; /* Alterado para display block para espaçamento */
+    width: 100%; /* Define a largura como 100% para ocupar a largura do contêiner pai */
+    padding: 10px; /* Adiciona preenchimento */
+    margin: 10px 0; /* Adiciona margem */
+    font-size: 16px;
+    border: 2px solid #ff69b4; /* Adiciona uma borda */
+    border-radius: 5px; /* Borda arredondada */
+    box-sizing: border-box; /* Define a caixa de modelo como box-sizing para incluir a borda na largura total */
+}
+
+.input::placeholder {
+    color: #999; /* Cor do texto do espaço reservado */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffccff; /* Fundo rosa claro */
+}
+
+h4 {
+    font-size: 24px;
+    text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+    color: #ff69b4; /* Cor rosa */
+    text-align: center;
+    margin: 20px 0; /* Adiciona margem ao redor do título */
+}
+
+fieldset {
+    margin: 20px 0; /* Adiciona margem ao redor do campo de formulário */
+}
+
+legend {
+    font-size: 20px;
+    text-align: center;
+}
+
+.lista {
+    text-align: center;
+}
+
+.chb {
+    margin-bottom: 20px;
+    font-size: 24px; /* Aumenta o tamanho da checkbox */
+}
+
+.chb input[type="checkbox"] {
+    display: none; /* Esconde o input original */
+}
+
+.chb label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 40px; /* Adiciona espaço para o emoji */
+}
+
+.chb label::before {
+    content: '🎁'; /* Adiciona um emoji de presente */
+    font-size: 24px; /* Tamanho do emoji */
+    position: absolute;
+    left: 0;
+}
+
+.chb input[type="checkbox"]:checked + label::before {
+    content: '🎀'; /* Muda para um laço quando a checkbox é marcada */
+}
+
+.link-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link-container a {
+    display: inline-block; /* Alterado para inline-block para estilização */
+    color: #fff; /* Cor branca */
+    background-color: #ff69b4; /* Cor rosa */
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+    padding: 10px 20px; /* Adiciona preenchimento */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Adiciona transição suave */
+}
+
+.link-container a:hover {
+    background-color: #e64a8b; /* Altera a cor de fundo ao passar o mouse */
+}
+
+button[type="submit"] {
+    display: inline-block; /* Alterado para inline-block para estilização */
+    color: #fff; /* Cor branca */
+    background-color: #ff69b4; /* Cor rosa */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Adiciona preenchimento */
+    font-size: 16px;
+    text-transform: uppercase; /* Transforma todas as letras em maiúsculas */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    transition: background-color 0.3s; /* Adiciona transição suave */
+}
+
+button[type="submit"]:hover {
+    background-color: #e64a8b; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilo para os inputs de texto */
+.input {
+   
+    display: block; /* Alterado para display block para espaçamento */
+    width: 100%; /* Define a largura como 100% para ocupar a largura do contêiner pai */
+    padding: 10px; /* Adiciona preenchimento */
+    margin: 30px 0; /* Adiciona margem */
+    font-size: 16px;
+    border: 2px solid #ff69b4; /* Adiciona uma borda */
+    border-radius: 5px; /* Borda arredondada */
+    box-sizing: border-box; /* Define a caixa de modelo como box-sizing para incluir a borda na largura total */
+}
+
+.input::placeholder {
+    color: #999; /* Cor do texto do espaço reservado */
+}
+
+/* Regras de mídia para ajustar o layout em tamanhos de tela menores */
+@media screen and (max-width: 768px) {
+    h4 {
+        font-size: 20px; /* Reduz o tamanho do título em telas menores */
+    }
+
+    .link-container a {
+        font-size: 14px; /* Reduz o tamanho do texto do link em telas menores */
+    }
+
+    button[type="submit"] {
+        font-size: 14px; /* Reduz o tamanho do texto do botão em telas menores */
+    }
+
+    .input {
+        font-size: 14px; /* Reduz o tamanho do texto do input em telas menores */
+    }
+}
+
+/* CSS posterior */
